@@ -31,7 +31,7 @@ venv/
 .coverage
 coverage.xml
 htmlcov/
-
+reports/
 # Ignore pytest result logs
 *.pytest_cache/
 *.coverage
