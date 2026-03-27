@@ -77,7 +77,11 @@ playwright-pom/
 │ └── login_page.py
 │
 └── utils/
-└── helpers.py
+    └── role_helpers.py
+└── create_page.sh
+└── create.sh
+└── format.sh
+└── scaffold_project.sh
 ```
 
 ## Installation
@@ -223,9 +227,6 @@ Use the script format.sh to format entire project.
 └── utils/
 └── helpers.py
 │
-└── create_page.sh
-└── create.sh
-└── format.sh
-└── scaffold_project.sh
+
 
 ```
