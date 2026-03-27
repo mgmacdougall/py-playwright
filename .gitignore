@@ -1,0 +1,91 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+*.pyc
+# Virtual environments
+venv/
+
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+*.exe
+*.toml
+
+# -----------------------------
+# Pytest
+# -----------------------------
+.cache/
+.pytest_cache/
+.junit/
+.coverage
+coverage.xml
+htmlcov/
+
+# Ignore pytest result logs
+*.pytest_cache/
+*.coverage
+.cache/
+
+# Ignore test artifacts
+playwright-report/  
+blob-report/
+trace.zip
+*.html
+
+# -----------------------------
+# Playwright
+# -----------------------------
+# Browser binaries
+playwright/.cache/
+playwright/.local-browsers/
+# Test artifacts
+test-results/
+playwright-report/
+blob-report/
+trace.zip
+*.zip
+
+# -----------------------------
+# Node (if using Playwright codegen or helpers)
+# -----------------------------
+node_modules/
+package-lock.json
+npm-debug.log
+
+# -----------------------------
+# IDE / Editor
+# -----------------------------
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# -----------------------------
+# OS Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Project-specific
+# -----------------------------
+# Ignore archived tests or old snapshots
+archive/
+old/
+tmp/
+temp/
