@@ -11,8 +11,6 @@ Designed using industry‑standard architecture patterns including:
 - Automated scaffolding scripts
 - Linting + formatting integration
 
-This project demonstrates senior‑level automation engineering, emphasizing reliability, readability, and long‑term maintainability.
-
 ---
 
 ## Features
@@ -92,13 +90,13 @@ source venv/bin/activate   # macOS/Linux
 venv\Scripts\Activate.ps1  # Windows
 ```
 
-### 2. Create and activate a virtual environment
+### 2. Install required dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Create and activate a virtual environment
+### 3. Install playwright
 
 ```bash
 playwright install
@@ -183,7 +181,7 @@ app.login.login(...)
 app.dashboard.is_loaded()
 ```
 
-## Linting & Formatting
+## ProjectLinting & Formatting
 
 ### Format code:
 
@@ -198,13 +196,15 @@ isort .
 pylint pages factory tests
 ```
 
-### Run liniinng on entire project:
+### Run linting on entire project:
 
 Use the script format.sh to format entire project.
 
 ```bash
 ./format.sh
 ```
+
+## Project Directory structure
 
 ```bash playwright-pom/
 │
@@ -222,4 +222,10 @@ Use the script format.sh to format entire project.
 │
 └── utils/
 └── helpers.py
+│
+└── create_page.sh
+└── create.sh
+└── format.sh
+└── scaffold_project.sh
+
 ```
